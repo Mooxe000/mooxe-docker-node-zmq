@@ -1,17 +1,17 @@
 {
-  "name": "mooxe-docker-zmq",
+  "name": "mooxe-docker-node-zmq",
   "version": "0.0.0",
-  "description": "docker image for zmq application of mooxe",
+  "description": "docker image for node-zmq application of mooxe",
   "author": "FooTearth <footearth@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mooxe000/mooxe-docker-zmq.git"
+    "url": "https://github.com/Mooxe000/mooxe-docker-node-zmq.git"
   },
   "bugs": {
-    "url": "https://github.com/Mooxe000/mooxe-docker-zmq/issues"
+    "url": "https://github.com/Mooxe000/mooxe-docker-node-zmq/issues"
   },
-  "homepage": "https://github.com/Mooxe000/mooxe-docker-zmq",
+  "homepage": "https://github.com/Mooxe000/mooxe-docker-node-zmq",
   "Keywords": [
     "docker",
     "daocloud",
@@ -19,10 +19,10 @@
   ],
   "bin": {},
   "scripts": {
-    "build": "docker build -t mooxe/zmq .",
-    "rebuild": "docker build --no-cache -t mooxe/zmq .",
-    "in": "docker run --name=zmq --rm -ti -v `pwd`:/root/zmq mooxe/zmq /bin/bash",
-    "push": "docker push mooxe/zmq",
+    "build": "docker build -t mooxe/node-zmq .",
+    "rebuild": "docker build --no-cache -t mooxe/node-zmq .",
+    "in": "docker run --name=node-zmq --rm -ti -v `pwd`:/root/node-zmq mooxe/node-zmq /bin/bash",
+    "push": "docker push mooxe/node-zmq",
     "test": "echo 'hello'"
   },
   "dependencies": {},

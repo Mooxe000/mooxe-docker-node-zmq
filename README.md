@@ -1,2 +1,2 @@
-# mooxe-docker-zmq
-docker image for zmq of mooxe
+# mooxe-docker-node-zmq
+docker image for node-zmq of mooxe
